@@ -1,24 +1,28 @@
 h1 {
 	color: rgb(2, 132, 130);
-	font-size: 40px;
-	padding: 10px 0 10px 0;
-	width: 50%;
+	font-size: 50px;
+	font-weight: bold;
+	text-align:center;
+	padding: 10px 0px 10px 0px;
 }
 h2 {
 	color: #ffd700;
-	font-size: 25px;
-	padding: 5px 0 10px 0;
-	width: 50%;
+	font-size: 30px;
+	padding-bottom: 20px;
+	text-align:center;
+	/*width: 50%;*/
 }
 p {
-	width: 50%;
+	text-align:center;
+	margin: 0px 90px 0px 90px;
 }
 .board {
-	height: 50%;
-	width: 50%;
+	height: 80%;
+	width: 40%;
 	display: inline-block;
-	float: left;
-	margin: 2% 8% 8% -6%;
+	margin: 0 auto;
+	/*float: left;*/
+	/*margin: 2% 8% 8% -6%;*/
 }
 .card {
 	height: 200px;
@@ -26,6 +30,8 @@ p {
 	border: 1px solid black;
 	border-radius: 10px;
 	background-color: #ffff00;
+    float: left;
+    margin:10%
 }
 .name {
 	color: #ff0000;
@@ -59,9 +65,21 @@ a:hover {
  	clear:both;
  	background-color: #808080;
  }
- div {
+
+ img {
+ 	height: 200px;
+	width: 150px;
+	border: 1px solid black;
+ }
+ button {
+ 	margin: 0 auto;
+ 	text-align: center;
+ 	font-size: 22px;
+ 	margin-bottom: 30px;
+ }
+ /*div {
         height: 50%;
 	    width: 50%;
 	    display: inline-block;
         margin: 30px;
-    }  
+    }*/
