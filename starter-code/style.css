@@ -3,13 +3,13 @@ h1 {
 	font-size: 50px;
 	font-weight: bold;
 	text-align:center;
-	padding: 10px 0px 10px 0px;
+	/*padding: 10px 0px 10px 0px;*/
 }
 h2 {
 	color: #ffd700;
 	font-size: 30px;
-	padding-bottom: 20px;
 	text-align:center;
+	/*bottom-padding: 10px;*/
 	/*width: 50%;*/
 }
 p {
@@ -85,3 +85,9 @@ a:hover {
 	    display: inline-block;
         margin: 30px;
     }*/
+
+
+
+
+
+
